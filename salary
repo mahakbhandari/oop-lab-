@@ -1,0 +1,20 @@
+#include<iostream>
+Using namespace std.
+Class employee {
+Private:
+Int salary;
+Public:
+Void setsalary(int s)
+{
+Salary=s;
+}
+Int getsalary() {
+Return salary;
+}
+};
+Int main(){
+Employee myobj;
+Myobj.setsalary(50000);
+Cout<<myobj.getsalary()<<endl;
+Return0; 
+}
