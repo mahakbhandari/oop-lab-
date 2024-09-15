@@ -12,7 +12,7 @@ void display(void);
 void person::getdata(void)
 {
 cout<<"enter name:";
-cin.>name;
+cin>>name;
 cout<<"enter age:";
 cin>>age;
 }
